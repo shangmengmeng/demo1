@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyEditText">
+        <!--功能的类型-->
+        <attr name="funcType">
+            <enum name="normal" value="-1"/>
+            <enum name="canClear" value="0"/>
+            <enum name="canWatchPwd" value="1" />
+        </attr>
+        <!--开启查看密码的图标-reference指向id-->
+        <attr name="eyeOpen" format="reference" />
+        <attr name="eyeClose" format="reference" />
+    </declare-styleable>
+</resources>
